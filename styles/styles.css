@@ -7,6 +7,168 @@ ul {
   list-style: none;
 }
 
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
 ul li {
   display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: relative;
+}
+.logo-nav {
+  background: #F72210;
+  padding: 1rem 0;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.nav-login {
+  text-align: right;
+}
+
+.logo-nav p{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.nav-login p {
+  margin: 0 1rem;
+}
+
+.nav-login button {
+  border-radius: 10px;
+  padding: 0;
+  padding: 0 1rem;
+}
+
+.cat-nav {
+  position: absolute;
+  background-color: white;
+  top: 5rem;
+}
+
+.sharp-radius {
+  display: inline;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+
+.cat-nav ul {
+  margin-bottom: 0;
+}
+
+.cat-nav ul li {
+  border-right: 1px solid lightgray;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+}
+
+.cat-nav form {
+  margin-top: 1rem;
+}
+
+.cat-nav form input{
+  width: 5rem;
+  border: none;
+}
+
+.trending{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-top: 2.5rem;
+}
+
+.section-title {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.featured-img {
+  position: relative;
+}
+
+.featured-img h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #F72210;
+  background: rgba(255, 255, 255, .9);
+  font-size: 17px;
+  padding: 8px 15px;
+}
+
+.featured-title {
+  font-size: 24px;
+}
+
+.summary {
+  font-size: 15px;
+}
+
+.grey-scale {
+  color: grey;
+  font-weight: bold;
+}
+
+.grey-scale p {
+  font-size: 12px;
+}
+
+#stories-head {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+}
+
+#m-stories h3 {
+  font-size: 17px;
+}
+
+#m-stories .row {
+  margin: 1rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.debate-item-a {
+  border-top: 1px solid grey;
+  padding: 1rem 0;
+}
+
+#debate h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#debate h4 {
+  font-size: 12px;
+}
+
+.debate-item-b {
+  border-bottom: 1px solid grey;
+  padding: 0.5rem 0;
+}
+
+#newsletter {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+
+.icon-n {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.magazine-title {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
 }
