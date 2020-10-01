@@ -172,3 +172,124 @@ header {
   border-bottom: 1px solid lightgray;
   margin-bottom: 1rem;
 }
+
+.newsweek-mag h4 {
+  font-size: 16px;
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: #F72210;
+  width: fit-content;
+  margin: 1rem 1rem 0 0;
+}
+
+.single-mag h3 {
+  font-size: 18px;
+}
+
+.single-mag img {
+  height: 60%;
+  object-fit: cover;
+}
+
+.t-details {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.border-top {
+  border-top: 1px solid gray;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+#united h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#united h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#world h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#world h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#business h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#business h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#tech h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#tech h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#culture h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#culture h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#sports h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#sports h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+.subscribe
+
+.subscribe h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.subscribe p {
+  font-size: 15px;
+}
+
+.subscribe input {
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.copyright {
+  padding-top: 1rem;
+}
+
+.f-14 {
+  font-size: 14px;
+}
