@@ -47,11 +47,11 @@ ul li {
   color: black;
 }
 
-header {
+/* header {
   position: relative;
 
   height: 10rem;
-}
+} */
 .logo-nav {
   background: #F72210;
   padding: 1rem 0;
@@ -79,20 +79,19 @@ header {
 }
 
 .cat-nav {
-  /* position: absolute; */
+  position: relative;
   background-color: white;
   /* top: 5rem; */
 }
 
 .angle {
   position: absolute;
-  width: 14rem;
-  height: 0.3rem;
-  /* background-color: lightseagreen; */
+  width: 5rem;
+  height: 0.1rem;
   border-top: 30px solid red;
-  border-left: 100px solid transparent;
-  top: 59%;
-  left: 81.2%;
+  border-left: 40px solid transparent;
+  top: -20px;
+  right: 0;
 }
 
 .sharp-radius {
@@ -452,4 +451,11 @@ footer {
 
 footer .border-top {
   margin-top: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .cat-nav,
+  .trending {
+    display: none;
+  }
 }
