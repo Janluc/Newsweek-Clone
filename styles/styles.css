@@ -204,9 +204,13 @@ main {
   
 }
 
-#m-stories .row {
+.single-story {
   margin: 1rem 0;
   border-bottom: 1px solid grey;
+}
+
+.more-info {
+  padding: 0 1.3rem 1rem 0 ;
 }
 
 .debate-section {
@@ -219,6 +223,11 @@ main {
   border-top: 1px solid grey;
   padding: 1rem 0;
   border-bottom: 4px double gray;
+}
+
+#debate img {
+  height: 63px;
+  width: auto;
 }
 
 #debate h3 {
@@ -252,13 +261,19 @@ main {
   left: 49%;
 }
 
+.debate-item img {
+  /* padding-top: 1rem; */
+  margin-right: 1rem;
+}
+
 .debate-item-b {
   border-bottom: 1px solid grey;
   padding: 0.5rem 0;
 }
 
 .debate-item-b img {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
+  margin-right: 1rem;
 }
 
 #newsletter {
