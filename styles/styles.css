@@ -34,6 +34,13 @@ ul li {
 
 /* Global Usage */
 
+#login-icon {
+  display: none;
+}
+
+#hamburger {
+  display: none;
+}
 .bld {
   font-weight: bold;
 }
@@ -75,7 +82,7 @@ ul li {
 .nav-login button {
   border-radius: 10px;
   padding: 0;
-  padding: 0 1rem;
+  padding: 0 0.3rem;
 }
 
 .cat-nav {
@@ -493,6 +500,14 @@ footer .border-top {
     display: none;
   }
 
+  #hamburger{
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .nav-date{
+    display: none;
+  }
   .container {
     margin: 0;
     padding: 0 1rem;
@@ -510,6 +525,13 @@ footer .border-top {
     width: 100%;
   }
 
+  #login {
+    display: none;
+  }
+  #login-icon {
+    display: inline-block;
+  }
+  
   #my-turn img{
     width: 100%;
   }
