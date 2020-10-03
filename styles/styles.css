@@ -30,7 +30,7 @@ a {
 a:hover {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #F72210;
+  border-bottom: 1px solid #f72210;
 }
 
 ul li {
@@ -63,7 +63,7 @@ ul li {
 }
 
 .no-underline:hover {
-  color: #F72210;
+  color: #f72210;
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
@@ -79,17 +79,17 @@ ul li {
 }
 
 .bg-red {
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .red-text {
-  color: #F72210;
+  color: #f72210;
 }
 
 /* HEADER */
 
 .logo-nav {
-  background: #F72210;
+  background: #f72210;
   padding: 0.7rem 0;
   color: white;
   position: relative;
@@ -181,8 +181,8 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  color: #F72210;
-  background: rgba(255, 255, 255, .9);
+  color: #f72210;
+  background: rgba(255, 255, 255, 0.9);
   font-size: 17px;
   padding: 8px 15px;
 }
@@ -245,20 +245,6 @@ main {
   border-bottom: 3px double gray;
 }
 
-#debate img {
-  height: 63px;
-  width: auto;
-}
-
-#debate h3 {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-#debate h4 {
-  font-size: 12px;
-}
-
 .center {
   text-align: center;
 }
@@ -293,6 +279,11 @@ main {
   margin-right: 1rem;
 }
 
+#debate img {
+  height: 63px;
+  width: auto;
+}
+
 #newsletter {
   background-color: #f4f5f6;
   border: 1px solid #e5e5e5;
@@ -300,7 +291,7 @@ main {
 
 #newsletter button {
   font-size: 12px;
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .icon-n {
@@ -325,12 +316,21 @@ main {
   background-color: #cdcecf;
 }
 
+#debate h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#debate h4 {
+  font-size: 12px;
+}
+
 .single-mag {
   height: 80%;
 }
 
 .single-mag span {
-  color: #F72210;
+  color: #f72210;
   font-weight: bold;
 }
 
@@ -344,7 +344,7 @@ main {
 
 .sect-title {
   font-size: 20px;
-  color: #F72210;
+  color: #f72210;
   font-weight: bold;
 }
 
@@ -408,7 +408,7 @@ main {
 
 .subscribe-info button {
   font-size: 11px;
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .newsletter-img {
