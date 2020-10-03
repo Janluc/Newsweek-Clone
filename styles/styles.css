@@ -149,11 +149,6 @@ ul li {
   margin: 1rem 0 0 1rem;
 }
 
-.cat-nav form input {
-  width: 3.5rem;
-  border: none;
-}
-
 .trending {
   border-top: 1px solid #d5d5d5;
   border-bottom: 1px solid #d5d5d5;
@@ -375,6 +370,11 @@ main {
 .subscribe-info button {
   font-size: 11px;
   background-color: #f72210;
+}
+
+.cat-nav form input {
+  width: 3.5rem;
+  border: none;
 }
 
 .newsletter-img {
