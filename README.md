@@ -39,9 +39,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
-- Twitter: [@alejot](https://twitter.com/alejot)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-toledo-3b444b109/)
+- GitHub: [@Janluc](https://github.com/Janluc)
+- Twitter: [@Janluc123](https://twitter.com/Janluc123)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
 
 👤 **Author2**
 
