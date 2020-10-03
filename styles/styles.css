@@ -213,16 +213,6 @@ main {
   padding-top: 0.5rem;
 }
 
-#stories-head {
-  border-bottom: 1px solid grey;
-  padding-bottom: 1rem;
-}
-
-#m-stories h3 {
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .single-story {
   margin: 1.5rem 0;
   border-bottom: 1px solid grey;
@@ -279,21 +269,6 @@ main {
   margin-right: 1rem;
 }
 
-#debate img {
-  height: 63px;
-  width: auto;
-}
-
-#newsletter {
-  background-color: #f4f5f6;
-  border: 1px solid #e5e5e5;
-}
-
-#newsletter button {
-  font-size: 12px;
-  background-color: #f72210;
-}
-
 .icon-n {
   display: inline-block;
   width: 30px;
@@ -316,15 +291,6 @@ main {
   background-color: #cdcecf;
 }
 
-#debate h3 {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-#debate h4 {
-  font-size: 12px;
-}
-
 .single-mag {
   height: 80%;
 }
@@ -337,7 +303,7 @@ main {
 .single-mag .bg-red {
   display: inline-block;
   padding: 0.2rem 0.4rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   color: white;
   font-weight: bold;
 }
@@ -441,6 +407,40 @@ main {
   height: 70%;
 }
 
+#debate h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#debate h4 {
+  font-size: 12px;
+}
+
+#stories-head {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+}
+
+#m-stories h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#debate img {
+  height: 63px;
+  width: auto;
+}
+
+#newsletter {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+
+#newsletter button {
+  font-size: 12px;
+  background-color: #f72210;
+}
+
 /* Footer */
 
 footer {
@@ -471,7 +471,6 @@ footer .border-top {
 }
 
 @media screen and (max-width: 991px) {
-
   .cat-nav,
   .trending,
   .nav-date {
