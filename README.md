@@ -1,0 +1,64 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# THE NEWSWEEK
+
+This project is a clone of the Newsweek website at (newsweek.com). As a requirement of the program, basic HTML and CSS were used during the design. 
+
+
+![screenshot](./newsweek-screenshot.png)
+
+
+## Built With
+
+- HTML
+- CSS
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/mke2111/TNW-Clone/98426bad9c0ea29af58e63f79c5dd2ea26ec093e/index.html)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- A operating system such as Windows, MAC, or Linux
+- A modern browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge
+
+### Setup
+- Clone or download the repo and run the HTML File.
+
+### Run tests
+- [We use Stylelint, Lighthout, & Webhint]()
+- Linters #25
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
+- Twitter: [@alejot](https://twitter.com/alejot)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-toledo-3b444b109/)
+
+👤 **Author2**
+
+- GitHub: [@mke2111](https://github.com/mke2111)
+- Twitter: [@Roymkenya](https://twitter.com/Roymkenya)
+- LinkedIn: [Roy Mukuye](https://www.linkedin.com/in/roy-mukuye-42b07b1b4)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page]().
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+N/A# TNW-Clone
