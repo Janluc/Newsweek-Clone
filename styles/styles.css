@@ -15,6 +15,11 @@ ul {
   list-style: none;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -54,15 +59,31 @@ ul li {
   color: black;
 }
 
-/* header {
-  position: relative;
+.no-underline:hover {
+  color: #F72210;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
 
-  height: 10rem;
-} */
+.no-deco:hover {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid transparent;
+}
+
+.bg-red {
+  background-color: #F72210;
+}
+
+.red-text {
+  color: #F72210;
+}
+
+/* HEADER */
+
 .logo-nav {
   background: #F72210;
-  padding: 1rem 0;
-  padding-bottom: 2rem;
+  padding: 0.7rem 0;
   color: white;
 }
 
@@ -80,20 +101,21 @@ ul li {
 }
 
 .nav-login button {
-  border-radius: 10px;
-  padding: 0;
-  padding: 0 0.3rem;
+  border-radius: 20px;
+  padding: 0 0.7rem;
+  margin: 0 0.5rem;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 .cat-nav {
   position: relative;
   background-color: white;
-  /* top: 5rem; */
 }
 
 .angle {
   position: absolute;
-  width: 5rem;
+  width: 7%;
   height: 0.1rem;
   border-top: 30px solid red;
   border-left: 40px solid transparent;
@@ -101,44 +123,39 @@ ul li {
   right: 0;
 }
 
-.sharp-radius {
-  display: inline;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid red;
-  border-bottom: 50px solid transparent;
-}
-
 .cat-nav ul {
   margin-bottom: 0;
 }
 
 .cat-nav ul li {
-  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
   margin: 1rem 0;
   padding: 0 0.5rem;
 }
 
+#no-border {
+  border-left: none;
+}
+
 .cat-nav form {
-  margin-top: 1rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .cat-nav form input{
-  width: 5rem;
+  width: 3.5rem;
   border: none;
 }
 
 .trending{
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
   background-color: white;
-  /* margin-top: 2.5rem; */
-  /* clear: both; */
 }
 
+/* MAIN SECTION */
+
 main {
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 
 .section-title {
@@ -164,15 +181,12 @@ main {
 .featured-title {
   font-size: 24px;
   font-weight: bold;
+  padding-top: 0.4rem;
 }
 
 .featured-title a {
   text-decoration: none;
   color: black;
-}
-
-.featured-title a:hover {
-  border-bottom: 1px solid #F72210;
 }
 
 .summary {
@@ -186,18 +200,7 @@ main {
 
 .grey-scale p {
   font-size: 12px;
-}
-
-.no-deco:hover {
-  text-decoration: none;
-  color: inherit;
-  
-}
-
-#m-stories a:hover {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 1px solid #F72210;
+  padding-top: 0.5rem;
 }
 
 #stories-head {
@@ -217,8 +220,10 @@ main {
 }
 
 .more-info {
-  padding: 0 1.3rem 1rem 0 ;
+  padding: 0 1.3rem 0.6rem 0 ;
 }
+
+/* DEBATE */
 
 .debate-section {
   width: 100%;
@@ -227,9 +232,9 @@ main {
 }
 
 .debate-item-a {
-  border-top: 1px solid grey;
+  border-top: 2px solid #d5d5d5;
   padding: 1rem 0;
-  border-bottom: 4px double gray;
+  border-bottom: 3px double gray;
 }
 
 #debate img {
@@ -240,12 +245,6 @@ main {
 #debate h3 {
   font-size: 15px;
   font-weight: bold;
-}
-
-#debate a:hover {
-  border-bottom: 1px solid #F72210;
-  color: inherit;
-  text-decoration: none;
 }
 
 #debate h4 {
@@ -265,11 +264,11 @@ main {
   color: white;
   text-align: center;
   top: 44%;
-  left: 49%;
+  left: 48.5%;
 }
 
 .debate-item {
-  border-bottom: 1px solid grey;
+  border-bottom: 2px solid #d5d5d5;
   padding: 1rem 0;
 }
 .debate-item img {
@@ -319,10 +318,8 @@ main {
   background-color: #cdcecf;
 }
 
-.bg-red {
-  background-color: #F72210;
-  /* width: fit-content;
-  margin: 1rem 1rem 0 0; */
+.single-mag {
+  height: 80%;
 }
 
 .single-mag span {
@@ -366,62 +363,13 @@ main {
   margin-top: 1rem;
 }
 
-#united h2 {
+.other-news h2 {
   font-size: 20px;
   font-weight: 800;
+  padding-top: 0.5rem;
 }
 
-#united h3 {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#world h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#world h3 {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#business h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#business h3 {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#tech h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#tech h3 {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#culture h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#culture h3 {
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#sports h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#sports h3 {
+.other-news h3 {
   font-size: 15px;
   font-weight: 600;
 }
@@ -439,6 +387,10 @@ main {
   font-weight: 800;
 }
 
+.subscribe {
+  padding-left: 3rem;
+}
+
 .subscribe p {
   font-size: 15px;
 }
@@ -447,6 +399,11 @@ main {
   width: 100%;
   margin-bottom: 1rem;
 }
+
+.subscribe-info button {
+  font-size: 12px;
+}
+
 .newsletter-img {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
   height: 20rem;
@@ -465,6 +422,18 @@ main {
   width: 100%;
   height: auto;
 }
+
+.behind-img {
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+.front-img {
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+  /* width: 8rem; */
+}
 /* Footer */
 
 footer {
@@ -476,13 +445,12 @@ footer {
 
 .copyright {
   padding-top: 1rem;
-  
   font-size: 12px;
 }
 
-
 .f-14 {
   font-size: 14px;
+  color: #d5d5d5;
 }
 
 #footer-icons ul li {
@@ -503,6 +471,7 @@ footer .border-top {
   #hamburger{
     display: inline-block;
     font-size: 24px;
+    margin-left: 0.5rem;
   }
 
   .nav-date{
