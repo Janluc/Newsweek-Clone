@@ -15,7 +15,7 @@ This project is a clone of the Newsweek website at (newsweek.com). As a requirem
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mke2111/TNW-Clone/98426bad9c0ea29af58e63f79c5dd2ea26ec093e/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Janluc/Newsweek-Clone/81d3848700bf74a23c6fd140a2fdb2637dd106d3/index.html)
 
 
 ## Getting Started
@@ -29,10 +29,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - Clone or download the repo and run the HTML File.
-
-### Run tests
-- [We use Stylelint, Lighthout, & Webhint]()
-- Linters #25
 
 
 ## Authors
@@ -53,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Janluc/Newsweek-Clone/issues).
 
 ## Show your support
 
