@@ -65,6 +65,10 @@ ul li {
   border-bottom: 1px solid transparent;
 }
 
+.no-line:hover {
+  border-bottom: 1px solid transparent;
+}
+
 .no-deco:hover {
   text-decoration: none;
   color: inherit;
@@ -85,6 +89,7 @@ ul li {
   background: #F72210;
   padding: 0.7rem 0;
   color: white;
+  position: relative;
 }
 
 .nav-login {
@@ -291,10 +296,14 @@ main {
   border: 1px solid #e5e5e5;
 }
 
-#newsletter a:hover {
+#newsletter button {
+  font-size: 12px;
+}
+
+/* #newsletter a:hover {
   text-decoration: none;
   color: inherit;
-}
+} */
 
 .icon-n {
   display: inline-block;
@@ -464,8 +473,17 @@ footer .border-top {
 
 @media screen and (max-width: 991px) {
   .cat-nav,
-  .trending {
+  .trending,
+  .nav-date {
     display: none;
+  }
+
+  .logo-nav {
+    position: fixed;
+  }
+
+  .logo-nav::after {
+    clear: both;
   }
 
   #hamburger{
@@ -474,9 +492,6 @@ footer .border-top {
     margin-left: 0.5rem;
   }
 
-  .nav-date{
-    display: none;
-  }
   .container {
     margin: 0;
     padding: 0 1rem;
@@ -484,7 +499,7 @@ footer .border-top {
   }
 
   #newsletter {
-    width: 50%;
+    width: 34%;
     margin: 2rem auto;
   }
 }
@@ -492,6 +507,17 @@ footer .border-top {
 @media screen and (max-width: 767px) {
   .featured-img img{
     width: 100%;
+  }
+
+  .logo-nav {
+    position: fixed;
+    top: 0;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  .logo-nav::after {
+    clear: both;
   }
 
   #login {
