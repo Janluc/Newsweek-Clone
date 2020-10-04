@@ -15,7 +15,7 @@ This project is a clone of the Newsweek website at (newsweek.com). As a requirem
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Janluc/Newsweek-Clone/3d3fe6977950b76adf9128942eea3801a9480b2d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Janluc/Newsweek-Clone/c4b163057de9078d073bf374e205c51499ac0fd6/index.html)
 
 
 ## Getting Started
