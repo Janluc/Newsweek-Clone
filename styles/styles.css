@@ -1,6 +1,7 @@
 * {
   margin: 0 0;
   padding: 0 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -131,10 +132,6 @@ ul li {
   right: 0;
 }
 
-.cat-nav ul {
-  margin-bottom: 0;
-}
-
 .cat-nav ul li {
   border-left: 1px solid lightgray;
   margin: 1rem 0;
@@ -152,11 +149,6 @@ ul li {
 }
 
 /* MAIN SECTION */
-
-main {
-  padding-top: 1rem;
-  background-color: white;
-}
 
 .section-title {
   color: grey;
@@ -214,11 +206,6 @@ main {
 }
 
 /* DEBATE */
-
-.debate-section {
-  width: 100%;
-  position: relative;
-}
 
 .debate-item-a {
   border-top: 2px solid #d5d5d5;
@@ -346,10 +333,6 @@ main {
   background-color: lightgray;
 }
 
-.letter-info {
-  height: 100%;
-}
-
 .letter-info h3 {
   font-size: 20px !important;
   font-weight: 800;
@@ -361,11 +344,6 @@ main {
 
 .subscribe p {
   font-size: 15px;
-}
-
-.subscribe input {
-  width: 100%;
-  margin-bottom: 1rem;
 }
 
 .subscribe-info button {
@@ -404,7 +382,6 @@ main {
   position: absolute;
   top: 1rem;
   left: 30%;
-  height: 100%;
 }
 
 #debate h3 {
@@ -443,10 +420,6 @@ main {
 
 /* Footer */
 
-footer {
-  padding-bottom: 2rem;
-}
-
 .bg_white {
   background: white;
 }
@@ -466,9 +439,9 @@ footer {
   font-size: 24px;
 }
 
-footer .border-top {
+/* footer .border-top {
   margin-top: 0;
-}
+} */
 
 @media screen and (max-width: 991px) {
   .container-fluid {
@@ -519,10 +492,6 @@ footer .border-top {
 }
 
 @media screen and (max-width: 767px) {
-  .container-fluid {
-    padding: 0;
-  }
-
   main {
     margin-top: 4.4rem;
   }
