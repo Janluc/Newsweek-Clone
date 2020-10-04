@@ -12,6 +12,7 @@ This project is a clone of the Newsweek website at (newsweek.com). As a requirem
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Live Demo
 
