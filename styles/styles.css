@@ -272,6 +272,11 @@ main {
   margin-bottom: 1rem;
 }
 
+.newsweek-mag img {
+  height: 80%;
+  object-fit: cover;
+}
+
 .newsweek-mag h4 {
   font-size: 16px;
   background-color: #f4f5f6;
@@ -393,14 +398,13 @@ main {
 
 .behind-img {
   position: relative;
-  padding-top: 1.5rem;
 }
 
 .front-img {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
-  height: 70%;
+  top: 1rem;
+  left: 30%;
+  height: 100%;
 }
 
 #debate h3 {
@@ -467,8 +471,13 @@ footer .border-top {
 }
 
 @media screen and (max-width: 991px) {
+  .container-fluid {
+    padding: 0;
+    margin-left: 0;
+  }
+
   main {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .cat-nav,
@@ -479,6 +488,8 @@ footer .border-top {
 
   .logo-nav {
     position: fixed;
+    /* margin-left: 0; */
+    width: 100%;
   }
 
   .logo-nav::after {
@@ -497,6 +508,11 @@ footer .border-top {
     max-width: 100%;
   }
 
+  .front-img {
+    top: 1rem;
+    left: 30%;
+  }
+
   #newsletter {
     width: 34%;
     margin: 2rem auto;
@@ -504,8 +520,12 @@ footer .border-top {
 }
 
 @media screen and (max-width: 767px) {
+  .container-fluid {
+    padding: 0;
+  }
+
   main {
-    margin-top: 3rem;
+    margin-top: 4.4rem;
   }
 
   .featured-img img {
@@ -517,10 +537,6 @@ footer .border-top {
     top: 0;
     margin-bottom: 1rem;
     overflow: hidden;
-  }
-
-  .logo-nav::after {
-    clear: both;
   }
 
   #login {
@@ -557,6 +573,12 @@ footer .border-top {
 
   .subscribe-info {
     text-align: center;
+  }
+
+  .front-img {
+    top: 1rem;
+    left: 40%;
+    margin-bottom: 1rem;
   }
 
   #newsletter {
