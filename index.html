@@ -18,23 +18,23 @@
   <title>Newsweek Clone</title>
 </head>
 
-<body>
+<body class="container-fluid pl-4 pr-4">
         <!-- Start of header -->
-  <header class="mb-3 container">
+  <header class="mb-3 container-fluid">
     <div class="row logo-nav sticky-top align-items-end">
-      <div class="col-lg-4 nav-date">
-        <p>
-          Thu, Oct 01, 2020
+      <div class="col-lg-4 nav-date align-middle">
+        <p class="">
+          <i class="fas fa-cloud-sun-rain"></i> 25<sup>0</sup> Den, CH <i class="fas fa-chevron-right"></i><br><br>
+          <span class="pt-5">Thu, Oct 01, 2020</span>
         </p>
-        <p></p>
       </div>
       <div class="col-4 col-lg-3"><a href="#"><img class="img-fluid" src="images/newsweek-logo-black-and-white.png"
             alt="Newsweek"></a>
       </div>
       <div class="col-8 col-lg-4 nav-login align-self-end">
-        <p id="login" class="align-middle">LOGIN</p>
+        <p id="login" class="align-middle"><a href="#">LOGIN</a></p>
         <i id="login-icon" class="fas fa-user align-middle"></i>
-        <button class="btn btn-warning" type="button"><b>SUBSCRIBE <i class="fas fa-chevron-right"></i></b></button>
+        <button class="btn btn-warning" type="button"><b>SUBSCRIPTION OFFERS <i class="fas fa-chevron-right"></i></b></button>
         <i id="hamburger" class="fas fa-bars align-middle mr-2"></i>
       </div>
     </div>
@@ -42,11 +42,11 @@
 
 
     <div class="row cat-nav">
-      <ul class="d-flex bld">
+      <ul class="d-flex justify-content-start bld container-fluid ">
         <li id="no-border"><a class="no-underline" href="">U.S</a></li>
         <li><a class="no-underline" href="">World</a></li>
         <li><a class="no-underline" href="">Business</a></li>
-        <li><a class="no-underline" href="">Tech & Science</a></li>
+        <li><a class="no-underline" href="">Tech</a></li>
         <li><a class="no-underline" href="">Culture</a></li>
         <li><a class="no-underline" href="">Newsgeek</a></li>
         <li><a class="no-underline" href="">Sports</a></li>
@@ -54,10 +54,11 @@
         <li><a class="no-underline" href="">The Debate</a></li>
         <li><a class="no-underline" href="">Vantage</a></li>
         <li><a class="no-underline" href="">Weather</a></li>
+        <li><form >
+          <input type="text" placeholder="Search"><i class="fas fa-search"></i>
+        </form></li>
       </ul>
-      <form >
-        <input type="text" placeholder="Search"><i class="fas fa-search"></i>
-      </form>
+      
 
       <div class="angle"></div>
     </div>
@@ -66,7 +67,7 @@
 
     <div class="row trending">
       <ul class="d-flex mb-0 bld-light">
-        <li class="m-2" id="bold"><a class="no-underline" href="#">TRENDING</a></li>
+        <li class="m-2" id="bold"><a class="no-underline pl-2" href="#">TRENDING</a></li>
         <li class="m-2"><a class="no-underline" href="#">DONALD TRUMP</a></li>
         <li class="m-2"><a class="no-underline" href="#">JOE BIDEN</a> </li>
         <li class="m-2"><a class="no-underline" href="#">CHINA</a></li>
@@ -79,7 +80,7 @@
 
           <!-- start of main -->
 
-  <main class="container">
+  <main class="container-fluid">
     <div class="row">
       <div id="featured-stories" class="col-12 col-md-5 col-lg-3">
         <h1 class="section-title">FEATURED STORIES</h1>
@@ -202,16 +203,16 @@
               <p><a class="no-deco" href="#">'We Live In A Two Storey Underground Bunker'</a></p>
             </div>
             <div class="col-12 col-md-4">
-              <img class="img-fluid"
+              <a href="#"><img class="img-fluid"
                 src="https://d.newsweek.com/en/full/1642961/refugee-palestine-spain-passport-citizenship.webp?w=397&h=397&f=612bd476aa04dbec3b5a31fb5904ac8b"
-                alt="Here-say">
+                alt="Here-say"></a>
               <p><a class="no-deco" href="#">I Had a Double Mastectomy, Covid-19 Has Prevented My Reconstructive
                   Surgery</a></p>
             </div>
             <div class="col-12 col-md-4">
-              <img class="img-fluid"
+              <a href="#">              <img class="img-fluid"
                 src="https://d.newsweek.com/en/full/1644536/breast-cancer-mastectomy-reconstructive-surgery.webp?w=397&h=397&f=56941d682a1745c94b59c51a311bb176"
-                alt="Here-say">
+                alt="Here-say"></a>
               <p><a class="no-deco" href="#">'I'm a Palestinian Refugee. I Became a Spanish Citizen Due To Jewish Roots'
                 </a></p>
             </div>
@@ -222,21 +223,30 @@
           <h1 class="section-title">Culture & Travel</h1>
           <div class="row">
             <div class="col-12 col-md-4">
-              <img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1"
-                alt="culture">
+              <div class="featured-img">
+                <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1"
+                  alt="culture"></a>
+              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+              </div>
               <p><a class="no-deco" href="#">Plot an Escape Around the World With 'Accidentally Wes Anderson'</a></p>
             </div>
             <div class="col-12 col-md-4">
-              <img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
-                alt="culture">
+              <div class="featured-img">
+                <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
+                  alt="culture"></a>
+              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+              </div>
               <p><a class="no-deco" href="#">50 Black actors who Made Entertainment History</a></p>
             </div>
             <div class="col-12 col-md-4">
-              <img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
-                alt="culture">
+              <div class="featured-img">
+                <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
+                  alt="culture"></a>
+              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+              </div>
               <p><a class="no-deco" href="#">Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'</a>
               </p>
             </div>
@@ -1113,7 +1123,7 @@
 
     <div class="border-top"></div>
 
-    <div class="row container">
+    <div class="row pl-4 pr-4">
 
       <div class="col-lg-8 d-flex flex-column">
         <h4 class="red-text">SUBSCRIBE</h4>
@@ -1158,14 +1168,13 @@
 
         <!-- Footer -->
 
-  <footer class="mt-1 pt-5 bg-white container">
+  <footer class="mt-1 p-5 bg-white container-fluid">
 
-    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="row">
             <div class="col-4 col-md-6 mt-auto">
-              <img class="img-fluid " src="images/newsweek-logo-png-transparent.png" alt="logo">
+              <a href="#"><img class="img-fluid " src="images/newsweek-logo-png-transparent.png" alt="logo"></a>
             </div>
             <div class="col-12 col-md-6 copyright mt-auto">
               <p class="m-0">© 2020 NEWSWEEK DIGITAL LLC</p>
@@ -1217,7 +1226,7 @@
         </div>
 
       </div>
-    </div>
+
   </footer>
 
 
