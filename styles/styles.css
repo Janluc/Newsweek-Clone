@@ -41,6 +41,11 @@ ul li {
   padding: 0;
 }
 
+footer {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -94,6 +99,10 @@ ul li {
 }
 
 /* HEADER */
+
+header {
+  z-index: 10;
+}
 
 .logo-nav {
   padding: 0.7rem 0;
@@ -155,6 +164,12 @@ ul li {
 }
 
 /* MAIN SECTION */
+
+main {
+  margin-top: 12rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 .section-title {
   color: grey;
@@ -394,6 +409,15 @@ ul li {
 }
 
 @media screen and (max-width: 991px) {
+  main {
+    margin: 0;
+    margin-top: 4rem;
+  }
+
+  footer {
+    margin: 0;
+  }
+
   .cat-nav,
   .trending,
   .nav-date {
