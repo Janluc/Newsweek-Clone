@@ -18,30 +18,30 @@
   <title>Newsweek Clone</title>
 </head>
 
-<body class="container-fluid">
+<body class="container-fluid pr-lg-3 pl-lg-3 p-0 m-0">
         <!-- Start of header -->
-  <header class="mb-3 container-fluid">
-    <div class="row logo-nav sticky-top align-items-end">
+  <header class="mb-3 container-fluid pl-0 pr-0">
+    <div class="row logo-nav bg-red sticky-top align-items-end w-md-100">
       <div class="col-lg-4 nav-date align-middle">
         <p class="">
           <i class="fas fa-cloud-sun-rain"></i> 25<sup>0</sup> Den, CH <i class="fas fa-chevron-right"></i><br><br>
           <span class="pt-5">Thu, Oct 01, 2020</span>
         </p>
       </div>
-      <div class="col-4 col-lg-3"><a href="#"><img class="img-fluid" src="images/newsweek-logo-black-and-white.png"
+      <div class="col-2 col-lg-3"><a href="#"><img class="img-fluid" src="images/newsweek-logo-black-and-white.png"
             alt="Newsweek"></a>
       </div>
-      <div class="col-8 col-lg-4 nav-login text-wrap align-self-end">
+      <div class="col-10 col-lg-4 nav-login text-wrap align-self-end">
         <p id="login" class="align-middle"><a href="#">LOGIN</a></p>
-        <i id="login-icon" class="fas fa-user align-middle"></i>
-        <button class="btn btn-warning" type="button"><b>SUBSCRIBE <span class="offers">OFFERS</span> <i class="fas fa-chevron-right"></i></b></button>
-        <i id="hamburger" class="fas fa-bars align-middle mr-2"></i>
+        <i id="login-icon" class="fas fa-user align-middle d-md-none"></i>
+        <button class="btn btn-warning f-size-12" type="button"><b>SUBSCRIBE <span class="offers">OFFERS</span> <i class="fas fa-chevron-right"></i></b></button>
+        <i id="hamburger" class="fas fa-bars align-middle mr-2 d-md-none"></i>
       </div>
     </div>
 
 
 
-    <div class="row cat-nav">
+    <div class="row cat-nav d-none d-lg-flex bg-white">
       <ul class="d-flex justify-content-start bld container-fluid mb-0">
         <li id="no-border"><a class="no-underline" href="">U.S</a></li>
         <li><a class="no-underline" href="">World</a></li>
@@ -65,9 +65,9 @@
 
 
 
-    <div class="row trending">
+    <div class="row trending bg-white">
       <ul class="d-flex mb-0 bld-light">
-        <li class="m-2" id="bold"><a class="no-underline pl-2" href="#">TRENDING</a></li>
+        <li class="m-2 c-black" >TRENDING</li>
         <li class="m-2"><a class="no-underline" href="#">DONALD TRUMP</a></li>
         <li class="m-2"><a class="no-underline" href="#">JOE BIDEN</a> </li>
         <li class="m-2"><a class="no-underline" href="#">CHINA</a></li>
@@ -83,18 +83,18 @@
   <main class="container-fluid pt-5 pl-2 pr-2 bg-white">
     <div class="row">
       <div id="featured-stories" class="col-12 col-md-5 col-lg-3">
-        <h1 class="section-title">FEATURED STORIES</h1>
+        <h1 class="section-title bld">FEATURED STORIES</h1>
         <div>
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1644429/trump-biden.webp?w=397&h=265&q=90&f=808a2a18a9374b37a6b1400835a03ebd"
                 alt="tech"></a>
             <h3 class="m-0">
               <a class="no-underline" href="#">TECH & SCIENCE</a>
             </h3>
           </div>
-          <h3 class="featured-title">
-            <a href="#">Nancy Pelosi Says Donald Trump's Actions Were 'Brazen Invitation' to COVID</a>
+          <h3 class="featured-title bld">
+            <a href="#" class="c-black text-decoration-none">Nancy Pelosi Says Donald Trump's Actions Were 'Brazen Invitation' to COVID</a>
           </h3>
           <p class="summary">"There was an honor system when it came to the people that came into the hall from the two
             campaigns," Chris Wallace said Friday.
@@ -103,16 +103,16 @@
         </div>
 
         <div>
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1644495/salton-sea-california-earthquakes.webp?w=397&h=265&q=90&f=bc3dadeaa82e563df57d20e69f639c96"
                 alt="politics"></a>
             <h3 class="m-0">
               <a class="no-underline" href="#">POLITICS</a>
             </h3>
           </div>
-          <h3 class="featured-title">
-            <a href="#">Donald Trump Hopes to Hang On to Key Minnesota County He Flipped in 2016
+          <h3 class="featured-title bld">
+            <a href="#" class="c-black text-decoration-none">Donald Trump Hopes to Hang On to Key Minnesota County He Flipped in 2016
             </a>
           </h3>
           <p class="summary">GOP Senators Mike Lee and Thom Tillis tested positive for the coronavirus just days after
@@ -121,16 +121,16 @@
         </div>
 
         <div>
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1645159/jobs.webp?w=397&h=265&q=90&f=55f8b25299396b72b47947346b5cf8d6"
                 alt="Trump"></a>
             <h3 class="m-0">
               <a class="no-underline" href="#">U.S</a>
             </h3>
           </div>
-          <h3 class="featured-title">
-            <a href="">Trump Unemployment Rate Matches Obama at Same Stage of Re-election Campaign
+          <h3 class="featured-title bld">
+            <a href="" class="c-black text-decoration-none">Trump Unemployment Rate Matches Obama at Same Stage of Re-election Campaign
             </a>
           </h3>
           <p class="summary">A swarm of moderately sized earthquakes has hit California near the San Andreas fault,
@@ -139,16 +139,16 @@
         </div>
 
         <div>
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1644495/salton-sea-california-earthquakes.webp?w=397&h=265&q=90&f=bc3dadeaa82e563df57d20e69f639c96"
                 alt=""></a>
             <h3 class="m-0">
               <a class="no-underline" href="#">POLITICS</a>
             </h3>
           </div>
-          <h3 class="featured-title">
-            <a href="">Chris Wallace Says Donald Trump Wasn't Tested for COVID Pre-Debate
+          <h3 class="featured-title bld">
+            <a href="" class="c-black text-decoration-none">Chris Wallace Says Donald Trump Wasn't Tested for COVID Pre-Debate
             </a>
           </h3>
           <p class="summary">GOP Senators Mike Lee and Thom Tillis tested positive for the coronavirus just days after
@@ -157,16 +157,16 @@
         </div>
 
         <div>
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1644495/salton-sea-california-earthquakes.webp?w=397&h=265&q=90&f=bc3dadeaa82e563df57d20e69f639c96"
                 alt=""></a>
             <h3 class="m-0">
               <a class="no-underline" href="#">U.S</a>
             </h3>
           </div>
-          <h3 class="featured-title">
-            <a href="">California Hit by 400 Earthquakes in Swarm on San Andreas Fault</a>
+          <h3 class="featured-title bld">
+            <a href="" class="c-black text-decoration-none">California Hit by 400 Earthquakes in Swarm on San Andreas Fault</a>
           </h3>
           <p class="summary">A swarm of moderately sized earthquakes has hit California near the San Andreas fault,
             increasing the likelihood that a bigger earthquake could strike within the next seven days.
@@ -175,247 +175,262 @@
 
       </div>
 
-      <div id="top-story" class="col-12 col-md-7 col-lg-6">
-        <div>
-          <h1 class="section-title">TOP STORY</h1>
+      <div id="top-story" class="col-12 col-md-7 col-lg-6 h-100">
 
-          <div class="featured-img">
-            <a href="#"><img class="img-fluid"
+        <div class="">
+          <h1 class="section-title bld">TOP STORY</h1>
+
+          <div class="featured-img position-relative">
+            <a href="#"><img class="img-fluid w-100"
                 src="https://d.newsweek.com/en/full/1644492/joe-biden-gestures-during-campaign-stop.webp?w=591&h=364&f=c94f5b2bc1fe59b78206c51577c8caa9"
                 alt="politics"></a>
             <h3 class="m-0">
               POLITICS
             </h3>
           </div>
-          <h3 class="featured-title"><a href="#">Joe Biden Breaks Fundraising Record after First Debate</a>
+          <h3 class="featured-title bld"><a href="#" class="c-black text-decoration-none">Joe Biden Breaks Fundraising Record after First Debate</a>
           </h3>
           <p>The Biden campaign has made a significant fundraising haul since the first presidential debate on Tuesday.
           </p>
         </div>
 
-        <div id="my-turn" class="grey-scale">
-          <h1 class="section-title">My Turn</h1>
-          <div class="row">
-            <div class="col-12  col-md-4">
-              <a href="#"><img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1644853/underground-bunker-bunkers-subterra-castle-kansas.webp?w=397&h=397&f=e5ffc7bdc833f932c3ba86772194d8df"
+        <div>
+          <div id="my-turn" class="grey-scale bld">
+            <h1 class="section-title bld">My Turn</h1>
+            <div class="row">
+              <div class="col-12  col-md-4">
+                <a href="#"><img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1644853/underground-bunker-bunkers-subterra-castle-kansas.webp?w=397&h=397&f=e5ffc7bdc833f932c3ba86772194d8df"
+                    alt="Here-say"></a>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">'We Live In A Two Storey Underground Bunker'</a></p>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1642961/refugee-palestine-spain-passport-citizenship.webp?w=397&h=397&f=612bd476aa04dbec3b5a31fb5904ac8b"
                   alt="Here-say"></a>
-              <p><a class="no-deco" href="#">'We Live In A Two Storey Underground Bunker'</a></p>
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1642961/refugee-palestine-spain-passport-citizenship.webp?w=397&h=397&f=612bd476aa04dbec3b5a31fb5904ac8b"
-                alt="Here-say"></a>
-              <p><a class="no-deco" href="#">I Had a Double Mastectomy, Covid-19 Has Prevented My Reconstructive
-                  Surgery</a></p>
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="#">              <img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644536/breast-cancer-mastectomy-reconstructive-surgery.webp?w=397&h=397&f=56941d682a1745c94b59c51a311bb176"
-                alt="Here-say"></a>
-              <p><a class="no-deco" href="#">'I'm a Palestinian Refugee. I Became a Spanish Citizen Due To Jewish Roots'
-                </a></p>
-            </div>
-          </div>
-        </div>
-
-        <div id="travel" class="grey-scale">
-          <h1 class="section-title">Culture & Travel</h1>
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <div class="featured-img">
-                <a href="#"><img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1"
-                  alt="culture"></a>
-              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">I Had a Double Mastectomy, Covid-19 Has Prevented My Reconstructive
+                    Surgery</a></p>
               </div>
-              <p><a class="no-deco" href="#">Plot an Escape Around the World With 'Accidentally Wes Anderson'</a></p>
-            </div>
-            <div class="col-12 col-md-4">
-              <div class="featured-img">
-                <a href="#"><img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
-                  alt="culture"></a>
-              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+              <div class="col-12 col-md-4">
+                <a href="#">              <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644536/breast-cancer-mastectomy-reconstructive-surgery.webp?w=397&h=397&f=56941d682a1745c94b59c51a311bb176"
+                  alt="Here-say"></a>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">'I'm a Palestinian Refugee. I Became a Spanish Citizen Due To Jewish Roots'
+                  </a></p>
               </div>
-              <p><a class="no-deco" href="#">50 Black actors who Made Entertainment History</a></p>
             </div>
-            <div class="col-12 col-md-4">
-              <div class="featured-img">
-                <a href="#"><img class="img-fluid"
-                  src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
-                  alt="culture"></a>
-              <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+          </div>
+  
+          <div id="travel" class="grey-scale bld">
+            <h1 class="section-title bld">Culture & Travel</h1>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="featured-img position-relative">
+                  <a href="#"><img class="img-fluid w-100"
+                    src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1"
+                    alt="culture"></a>
+                <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+                </div>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">Plot an Escape Around the World With 'Accidentally Wes Anderson'</a></p>
               </div>
-              <p><a class="no-deco" href="#">Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'</a>
-              </p>
+              <div class="col-12 col-md-4">
+                <div class="featured-img position-relative">
+                  <a href="#"><img class="img-fluid w-100"
+                    src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
+                    alt="culture"></a>
+                <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+                </div>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">50 Black actors who Made Entertainment History</a></p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="featured-img position-relative w-100">
+                  <a href="#"><img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
+                    alt="culture"></a>
+                <h3 class="m-0"><a class="no-deco bld-light" href="#">TRAVEL</a></h3>
+                </div>
+                <p class="f-size-12 pt-1"><a class="no-deco" href="#">Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div id="m-stories">
-          <h1 id="stories-head" class="section-title">MORE STORIES</h1>
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645171/amy-coney-barrett-donald-trump-coronavirus-scotus.webp?w=95&h=95&l=45&t=23&f=84a89601460ca2d47afa005179b5428e"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Trump's COVID Diagnosis Won't Delay Amy Coney Barrett SCOTUS Hearings</a></h3>
-            <p class="summary">A Lindsey Graham spokesman told Newsweek the process of confirming Barrett to the Supreme
-              Court is continuing with no change Barrett to the Supreme Court is continuing with.</p>
-
+  
+          <div id="m-stories" class="">
+            <h1 id="stories-head" class="section-title bld">MORE STORIES</h1>
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645171/amy-coney-barrett-donald-trump-coronavirus-scotus.webp?w=95&h=95&l=45&t=23&f=84a89601460ca2d47afa005179b5428e"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Trump's COVID Diagnosis Won't Delay Amy Coney Barrett SCOTUS Hearings</a></h3>
+              <p class="summary">A Lindsey Graham spokesman told Newsweek the process of confirming Barrett to the Supreme
+                Court is continuing with no change Barrett to the Supreme Court is continuing with.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645106/us-president-donald-trump.webp?w=95&h=95&f=68095fdc574dd51941d9f88f6b7c2c0b"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Melania Trump Slams Personal Criticism of Child Separation in Secret Call
+                </a></h3>
+              <p class="summary">The first lady reportedly expressed her frustration about the backlash she faced for the
+                president's policy that led to separating immigrant children from their families.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644766/mike-bloomberg.webp?w=95&h=95&f=dfdc44b8ce6f7fa72bcde0d6aeaf2a44"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks
+                </a></h3>
+              <p class="summary">Mike Bloomberg continues to deploy parts of his staggering $100 million Florida
+                investment, this time with a focus on the door-knocking the Biden campaign has thus far avoided, and aimed
+                at Latino and Black voters, Newsweek has learned.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
+              <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
+                hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatem, illum.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645156/ivanka-yrump.webp?w=95&h=95&f=fe072059ef6a911ab42b02d33341a822"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Jared Kushner, Ivanka and Barron Trump Test Negative for COVID
+                </a></h3>
+              <p class="summary">There were fears that Ivanka Trump could have been exposed to the coronavirus when she
+                traveled with the president's aide Hope Hicks, who later tested positive, earlier this week.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645032/ballot.webp?w=95&h=95&f=7866e0a8fb795fb9c175cf07de95bbc2"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Warning as People 'Going Door-To-Door' To Illegally Collect Voting Ballots</a></h3>
+              <p class="summary">The Anne Arundel County Board of Elections advise not to give a stranger your ballot
+                following reports of suspicious behavior.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645171/amy-coney-barrett-donald-trump-coronavirus-scotus.webp?w=95&h=95&l=45&t=23&f=84a89601460ca2d47afa005179b5428e"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Trump's COVID Diagnosis Won't Delay Amy Coney Barrett SCOTUS Hearings</a></h3>
+              <p class="summary">A Lindsey Graham spokesman told Newsweek the process of confirming Barrett to the Supreme
+                Court is continuing with no change Barrett to the Supreme Court is continuing with.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
+              <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
+                hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatem, illum.</p>
+  
+              <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644766/mike-bloomberg.webp?w=95&h=95&f=dfdc44b8ce6f7fa72bcde0d6aeaf2a44"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks
+                </a></h3>
+              <p class="summary">Mike Bloomberg continues to deploy parts of his staggering $100 million Florida
+                investment, this time with a focus on the door-knocking the Biden campaign has thus far avoided, and aimed
+                at Latino and Black voters, Newsweek has learned.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645106/us-president-donald-trump.webp?w=95&h=95&f=68095fdc574dd51941d9f88f6b7c2c0b"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Melania Trump Slams Personal Criticism of Child Separation in Secret Call
+                </a></h3>
+              <p class="summary">The first lady reportedly expressed her frustration about the backlash she faced for the
+                president's policy that led to separating immigrant children from their families.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
+              <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
+                hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatem, illum.</p>
+                <div class="clearfix"></div>
+  
+            </div>
+  
+            <div class="single-story">
+              <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1645156/ivanka-yrump.webp?w=95&h=95&f=fe072059ef6a911ab42b02d33341a822"
+                  alt="more-article"></a>
+  
+  
+              <h3 class="bld"><a href="#">Jared Kushner, Ivanka and Barron Trump Test Negative for COVID
+                </a></h3>
+              <p class="summary">There were fears that Ivanka Trump could have been exposed to the coronavirus when she
+                traveled with the president's aide Hope Hicks, who later tested positive, earlier this week.</p>
+  
+                <div class="clearfix"></div>
+            </div>
+  
           </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645106/us-president-donald-trump.webp?w=95&h=95&f=68095fdc574dd51941d9f88f6b7c2c0b"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Melania Trump Slams Personal Criticism of Child Separation in Secret Call
-              </a></h3>
-            <p class="summary">The first lady reportedly expressed her frustration about the backlash she faced for the
-              president's policy that led to separating immigrant children from their families.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644766/mike-bloomberg.webp?w=95&h=95&f=dfdc44b8ce6f7fa72bcde0d6aeaf2a44"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks
-              </a></h3>
-            <p class="summary">Mike Bloomberg continues to deploy parts of his staggering $100 million Florida
-              investment, this time with a focus on the door-knocking the Biden campaign has thus far avoided, and aimed
-              at Latino and Black voters, Newsweek has learned.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
-            <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
-              hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptatem, illum.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645156/ivanka-yrump.webp?w=95&h=95&f=fe072059ef6a911ab42b02d33341a822"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Jared Kushner, Ivanka and Barron Trump Test Negative for COVID
-              </a></h3>
-            <p class="summary">There were fears that Ivanka Trump could have been exposed to the coronavirus when she
-              traveled with the president's aide Hope Hicks, who later tested positive, earlier this week.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645032/ballot.webp?w=95&h=95&f=7866e0a8fb795fb9c175cf07de95bbc2"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Warning as People 'Going Door-To-Door' To Illegally Collect Voting Ballots</a></h3>
-            <p class="summary">The Anne Arundel County Board of Elections advise not to give a stranger your ballot
-              following reports of suspicious behavior.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645171/amy-coney-barrett-donald-trump-coronavirus-scotus.webp?w=95&h=95&l=45&t=23&f=84a89601460ca2d47afa005179b5428e"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Trump's COVID Diagnosis Won't Delay Amy Coney Barrett SCOTUS Hearings</a></h3>
-            <p class="summary">A Lindsey Graham spokesman told Newsweek the process of confirming Barrett to the Supreme
-              Court is continuing with no change Barrett to the Supreme Court is continuing with.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
-            <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
-              hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptatem, illum.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644766/mike-bloomberg.webp?w=95&h=95&f=dfdc44b8ce6f7fa72bcde0d6aeaf2a44"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks
-              </a></h3>
-            <p class="summary">Mike Bloomberg continues to deploy parts of his staggering $100 million Florida
-              investment, this time with a focus on the door-knocking the Biden campaign has thus far avoided, and aimed
-              at Latino and Black voters, Newsweek has learned.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645106/us-president-donald-trump.webp?w=95&h=95&f=68095fdc574dd51941d9f88f6b7c2c0b"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Melania Trump Slams Personal Criticism of Child Separation in Secret Call
-              </a></h3>
-            <p class="summary">The first lady reportedly expressed her frustration about the backlash she faced for the
-              president's policy that led to separating immigrant children from their families.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1644519/qanon-sign-donald-trump-rally-pennsylvania.webp?w=95&h=95&f=17cde76c5929faf56b4f58c6ffcfcd9e"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Facebook Removes Trump Post on Refugees and Tightens QAnon, Election Ads</a></h3>
-            <p class="summary">"Content that is debunked will be reduced in News Feed and filtered from Explore and
-              hashtags on Instagram," the company said in a statement. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptatem, illum.</p>
-
-          </div>
-
-          <div class="single-story">
-            <a class="float-left no-deco more-info" href="#"><img class="img-fluid"
-                src="https://d.newsweek.com/en/full/1645156/ivanka-yrump.webp?w=95&h=95&f=fe072059ef6a911ab42b02d33341a822"
-                alt="more-article"></a>
-
-
-            <h3><a href="#">Jared Kushner, Ivanka and Barron Trump Test Negative for COVID
-              </a></h3>
-            <p class="summary">There were fears that Ivanka Trump could have been exposed to the coronavirus when she
-              traveled with the president's aide Hope Hicks, who later tested positive, earlier this week.</p>
-
-          </div>
-
         </div>
       </div>
-
+      
       <div id="debate" class="col-lg-3 col-12">
         <div class="debate-info">
-          <h1 class="section-title">THE DEBATE</h1>
+          <h1 class="section-title bld">THE DEBATE</h1>
 
           <div class="debate-section w-100 position-relative">
             <div class="debate-item-a d-flex justify-content-lg-between align-items-center">
@@ -425,17 +440,17 @@
                     alt="debate"></a>
               </div>
               <div class="debat align-self-end">
-                <h3><a href="#">The Case for Amy Coney Barrett l</a></h3>
-                <h4>BY <b>ROBERT P. GEORGE</b></h4>
+                <h3 class="bld"><a href="#">The Case for Amy Coney Barrett l</a></h3>
+                <h4 class="f-size-12">BY <b>ROBERT P. GEORGE</b></h4>
               </div>
             </div>
 
-            <div class="text-center">vs</div>
+            <div class="center-text">vs</div>
 
             <div class="row debate-item">
               <div class="col-8 d-flex flex-column justify-content-center">
-                <h3><a href="#">The Case for Amy Coney Barrett.</a></h3>
-                <h4>BY <b>ROBERT P. GEORGE</b></h4>
+                <h3 class="bld"><a href="#">The Case for Amy Coney Barrett.</a></h3>
+                <h4 class="f-size-12">BY <b>ROBERT P. GEORGE</b></h4>
               </div>
 
               <div class="col-4 text-right">
@@ -449,7 +464,7 @@
         </div>
 
         <div id="opinion" class="mt-3">
-          <h3 class="bld-light">OPINION</h3>
+          <h3 class="bld" class="bld-light">OPINION</h3>
 
           <div class="debate-item-b d-flex ">
             <div>
@@ -458,8 +473,8 @@
                   alt="opinion-pic"></a>
             </div>
             <div class=" align-self-end">
-              <h3><a href="#">Americans Deserve a Better Debate</a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h3 class="bld"><a href="#">Americans Deserve a Better Debate</a></h3>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -470,8 +485,8 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h3 class="bld"><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -482,8 +497,8 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h3 class="bld"><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -494,9 +509,9 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Why Downplaying China's Election Interference Could Backfire
+              <h3 class="bld"><a href="#">Why Downplaying China's Election Interference Could Backfire
                 </a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -507,9 +522,9 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">The United Nations: Erdogan's Favorite Platform for Trolling the World
+              <h3 class="bld"><a href="#">The United Nations: Erdogan's Favorite Platform for Trolling the World
                 </a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -520,9 +535,9 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Why an October Vaccine Wouldn't Swing the Election for Trump
+              <h3 class="bld"><a href="#">Why an October Vaccine Wouldn't Swing the Election for Trump
                 </a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -533,8 +548,8 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h3 class="bld"><a href="#">Yearning for an Independent Federal Judiciary</a></h3>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -545,9 +560,9 @@
                   alt="opinion-pic"></a>
             </div>
             <div class="align-self-end">
-              <h3><a href="#">Why an October Vaccine Wouldn't Swing the Election for Trump
+              <h3 class="bld"><a href="#">Why an October Vaccine Wouldn't Swing the Election for Trump
                 </a></h3>
-              <h4>A. Benjamin Spencer</h4>
+              <h4 class="f-size-12">A. Benjamin Spencer</h4>
             </div>
           </div>
 
@@ -564,11 +579,14 @@
               <div class="form-group">
                 <input class="form-control" type="text" id="email" placeholder="Email address">
               </div>
-              <button class="btn  btn-danger w-100 no-line" type="button"> SIGN UP <i class="fas fa-chevron-right"></i></button>
+              <button class="btn  btn-danger w-100 no-line f-size-12" type="button"> SIGN UP <i class="fas fa-chevron-right"></i></button>
             </form>
           </div>
         </div>
       </div>
+
+      
+      
     </div>
 
 
@@ -579,24 +597,24 @@
       </div>
       <div class="row">
         <article class="col-md-3  newsweek-mag">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.webp?w=290&h=387&q=90&f=26d3b4b4b819db75fc5ff49cbe795e62"
               alt="Latino vote">
             <h3 class="m-0">OCTOBER 16 ISSUE</h3>
           </div>
           <a href="">
-            <h4 class="center "> SEE ALL FEATURES <i class="fas fa-chevron-right"></i></h4>
+            <h4 class="text-center "> SEE ALL FEATURES <i class="fas fa-chevron-right"></i></h4>
           </a>
         </article>
 
-        <article class="col-md-3 single-mag pt-3">
+        <article class="col-md-3 single-mag pt-3 bld">
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1641924/fe-rbg-banner.webp?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298"
             alt="magazine">
-          <span class="bg-red">COVER </span> <span>U.S</span>
+          <span class="bg-red d-inline-block bld">COVER </span> <span class="bld">U.S</span>
 
-          <h3><a class="og_underline" href="">If Elected, Who Would Joe Biden Pick for the Supreme Court?
+          <h3 class="bld"><a class="og_underline" href="">If Elected, Who Would Joe Biden Pick for the Supreme Court?
             </a>
           </h3>
         </article>
@@ -605,8 +623,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1640316/rbg-memorial.webp?w=466&h=311&q=90&f=146a45944006b5527c954a6a500d9555"
             alt="magazine">
-          <span class="bg-red">FEATURES </span> <span>U.S</span>
-          <h3><a class="og_underline" href="">'Accidentally Wes Anderson' Around the World</a>
+          <span class="bg-red d-inline-block bld">FEATURES </span> <span class="bld">U.S</span>
+          <h3 class="bld"><a class="og_underline" href="">'Accidentally Wes Anderson' Around the World</a>
           </h3>
         </article>
 
@@ -614,8 +632,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1643970/per-latinovote-05-1158241102.webp?w=466&h=311&q=90&f=9e390ddf1667e128c117c24d51cccd30"
             alt="magazine">
-          <span class="bg-red">FEATURES </span> <span>U.S</span>
-          <h3><a href="" class="og_underline">Biden Should Promise to Pack the Supreme Court to Save It From Partisan
+          <span class="bg-red d-inline-block bld">FEATURES </span> <span class="bld">U.S</span>
+          <h3 class="bld"><a href="" class="og_underline">Biden Should Promise to Pack the Supreme Court to Save It From Partisan
               War</a>
           </h3>
         </article>
@@ -627,8 +645,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=466&h=311&l=57&t=47&q=90&f=5ffa18499fcefd05d048d9bf9428c5bc"
             alt="magazine">
-          <span class="bg-red">PERISCOPE </span> <span>U.S</span>
-          <h3><a href="" class="og_underline">Biden Tries to Close the Deal with Latinos, As Florida Remains A
+          <span class="bg-red d-inline-block bld">PERISCOPE </span> <span class="bld">U.S</span>
+          <h3 class="bld"><a href="" class="og_underline">Biden Tries to Close the Deal with Latinos, As Florida Remains A
               Headache</a>
           </h3>
         </article>
@@ -637,8 +655,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=466&h=311&q=90&f=b45862b19a0efd036338e3e8300df802"
             alt="magazine">
-          <span class="bg-red">DOWNTIME </span> <span>Culture</span>
-          <h3><a href="" class="og_underline">'Accidentally Wes Anderson' Around the World</a>
+          <span class="bg-red d-inline-block bld">DOWNTIME </span> <span class="bld">Culture</span>
+          <h3 class="bld"><a href="" class="og_underline">'Accidentally Wes Anderson' Around the World</a>
           </h3>
         </article>
 
@@ -646,8 +664,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1641924/fe-rbg-banner.webp?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298"
             alt="magazine">
-          <span class="bg-red">COVER </span> <span>U.S</span>
-          <h3><a href="" class="og_underline">Biden Should Promise to Pack the Supreme Court to Save It From Partisan
+          <span class="bg-red d-inline-block bld">COVER </span> <span class="bld">U.S</span>
+          <h3 class="bld"><a href="" class="og_underline">Biden Should Promise to Pack the Supreme Court to Save It From Partisan
               War</a>
           </h3>
         </article>
@@ -656,8 +674,8 @@
           <img class="img-fluid"
             src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=466&h=311&l=57&t=47&q=90&f=5ffa18499fcefd05d048d9bf9428c5bc"
             alt="magazine">
-          <span class="bg-red">COVER </span> <span>U.S</span>
-          <h3><a href="" class="og_underline">Biden Tries to Close the Deal with Latinos, As Florida Remains A
+          <span class="bg-red d-inline-block bld">COVER </span> <span class="bld">U.S</span>
+          <h3 class="bld"><a href="" class="og_underline">Biden Tries to Close the Deal with Latinos, As Florida Remains A
               Headache</a>
           </h3>
         </article>
@@ -671,13 +689,13 @@
       </div>
       <div class="row">
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644997/donald-trump.webp?w=397&h=265&f=abd5a0f2b776899cba64ebce990f69fc"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">What Trump's Physician Said About President Testing Positive for COVID-19
+          <h3 class="t-details f-size-20"><a href="">What Trump's Physician Said About President Testing Positive for COVID-19
             </a></h3>
           <p class="summary">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a
             statement.
@@ -685,39 +703,39 @@
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644714/doug-burgum.webp?w=397&h=265&f=0036bf93873b13ed79baa5a6259932d2"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details"><a href="">North Dakota Saw 80 Percent Increase in COVID Cases in September
+          <h3 class="t-details f-size-20"><a href="">North Dakota Saw 80 Percent Increase in COVID Cases in September
             </a></h3>
           <p class="summary">The state currently has 3,661 active coronavirus cases, health department figures show,
             with a total of 100 deaths reported in September.</p>
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643884/debate-biden-trump.webp?w=397&h=265&f=7492bd4ff94f302000b14438c1a4d191"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">World Media Dismayed at 'Chaotic' and 'Childish' Presidential Debate</a>
+          <h3 class="t-details f-size-20"><a href="">World Media Dismayed at 'Chaotic' and 'Childish' Presidential Debate</a>
           </h3>
           <p class="summary">Op-ed writers from media outlets in France, Spain, Italy, China and Russia were shocked by
             the tone of the debate between President Donald Trump and the Democratic contender, Joe Biden.</p>
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643867/nyse.webp?w=397&h=265&f=838c415424a9162afe34b984ff7cb47d"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">Donald Trump's Disapproval Rating Falls Six Points Over Three Months
+          <h3 class="t-details f-size-20"><a href="">Donald Trump's Disapproval Rating Falls Six Points Over Three Months
             </a></h3>
           <p class="summary">The president's net disapproval rating dropped from 15 points at the end of July to just 9
             points at the end of September.
@@ -728,52 +746,52 @@
       <div class="row">
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643976/las-vegas-bar-customers-september-2020.webp?w=397&h=265&f=84e0527deedcdfa6f3bb9a71073072c1"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details"><a href="">Coronavirus Cases Are Now Rising in 28 States
+          <h3 class="t-details f-size-20"><a href="">Coronavirus Cases Are Now Rising in 28 States
             </a></h3>
           <p class="summary">Several states in the east of the country, including New York, New Jersey and Connecticut,
             reported an increase in new infections in recent weeks.</p>
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644748/coronavirus-india-lockdown-april-2020.webp?w=397&h=265&f=4b38c6129614f69caac8b82e938dd30d"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">COVID-19 Halloween Masks for Sale on Amazon and eBay Spark Outrage
+          <h3 class="t-details f-size-20"><a href="">COVID-19 Halloween Masks for Sale on Amazon and eBay Spark Outrage
             </a></h3>
           <p class="summary">A spokesperson for Amazon confirmed the company will remove the product from its listings.
           </p>
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644629/voting.webp?w=397&h=265&f=da010c1ee3c71abd7b608be1c4972fff"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">World Media Dismayed at 'Chaotic' and 'Childish' Presidential Debate</a>
+          <h3 class="t-details f-size-20"><a href="">World Media Dismayed at 'Chaotic' and 'Childish' Presidential Debate</a>
           </h3>
           <p class="summary">Op-ed writers from media outlets in France, Spain, Italy, China and Russia were shocked by
             the tone of the debate between President Donald Trump and the Democratic contender, Joe Biden.</p>
         </article>
 
         <article class="col-md-6 col-lg-3">
-          <div class="featured-img">
-            <img class="img-fluid"
+          <div class="featured-img position-relative">
+            <img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644596/meghan-markle-prince-harry-sussex.webp?w=397&h=265&f=c1e81f1284e1604aca6e18675e98a1f2"
               alt="Editor's pick">
             <h3 class="m-0">WORLD</h3>
           </div>
-          <h3 class="t-details "><a href="">Prince Harry Admits He 'Wasn't Aware' of Problems of Racism in the U.K.
+          <h3 class="t-details f-size-20"><a href="">Prince Harry Admits He 'Wasn't Aware' of Problems of Racism in the U.K.
             </a></h3>
           <p class="summary">The Duke and Duchess of Sussex called out structural racism today — as Prince Harry
             admitted he "wasn't aware" of the extent of the problem until recently.</p>
@@ -783,27 +801,27 @@
     </div>
 
     <div class="border-top">
-      <h3 class="sect-title red-text">U.S</h3>
+      <h3 class="f-size-20 red-text bld">U.S</h3>
       <div id="united" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644569/panda.webp?w=397&h=265&f=05cf208b9ed6b7469e0e1286f7069952"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1645712/joe-biden.webp?w=397&h=265&f=b205e82fe8d06d6fd952c257f2ca634e"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -814,7 +832,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645688/donald-trump-covid-19-diagnosis-republican-democrat-reactions.webp?w=95&h=95&f=e5ba0d60e785812967dec7766307b336"
                   alt="side-news"></a>
             </div>
@@ -825,7 +843,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -840,27 +858,27 @@
 
 
     <div class="border-top">
-      <h3 class="sect-title red-text">World</h3>
+      <h3 class="f-size-20 red-text bld">World</h3>
       <div id="world" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644569/panda.webp?w=397&h=265&f=05cf208b9ed6b7469e0e1286f7069952"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644569/panda.webp?w=397&h=265&f=05cf208b9ed6b7469e0e1286f7069952"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645362/stepanakert-nagorno-karabakh-armenia-azerbaijan-conflict.webp?w=397&h=265&f=9bbbd23ff28527526459698a2c892db8"
                   alt="side-news"></a>
             </div>
@@ -871,7 +889,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645213/paris.webp?w=397&h=265&f=5ef74fe17a817d87dfec38533c2f66de"
                   alt="side-news"></a>
             </div>
@@ -882,7 +900,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645187/vrije-universiteit-brussel-university-belgium-june-2020.webp?w=95&h=95&f=88b3ae6e427ad1604a590fc4434ff467"
                   alt="side-news"></a>
             </div>
@@ -896,27 +914,27 @@
     </div>
 
     <div class="border-top">
-      <h3 class="sect-title red-text">Business</h3>
+      <h3 class="f-size-20 red-text bld">Business</h3>
       <div id="business" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643045/democratic-leaders.webp?w=397&h=265&f=588d10025e96f244d6531c43950f045d"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1643824/donald-trump-debate.webp?w=397&h=265&f=98450c45aef1c4940c682b37b409f502"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -927,7 +945,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1639729/youngest-billionaires-america.webp?w=95&h=95&f=59c4d0dca2d82fbda06ae3456c32e96d"
                   alt="side-news"></a>
             </div>
@@ -938,7 +956,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -952,27 +970,27 @@
     </div>
 
     <div class="border-top">
-      <h3 class="sect-title red-text">Tech & Science</h3>
+      <h3 class="f-size-20 red-text bld">Tech & Science</h3>
       <div id="tech" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1645184/twitter-logo-smartphone.webp?w=397&h=265&f=dd96ae6d5386f825188fad57a1c3f542"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1645080/north-atlantic-right-whale.webp?w=397&h=265&f=3667456fcc960672ac32f6f7b519d605"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645020/us-president-donald-trump-white-house-lawn.webp?w=397&h=265&f=1dfee431f07b2bd65f175ada42b130a0"
                   alt="side-news"></a>
             </div>
@@ -983,7 +1001,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -994,7 +1012,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -1008,27 +1026,27 @@
     </div>
 
     <div class="border-top">
-      <h3 class="sect-title red-text">Culture</h3>
+      <h3 class="f-size-20 red-text bld">Culture</h3>
       <div id="culture" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1645702/wwe-clash-champions-roman-reigns-wins-uso.webp?w=397&h=265&f=f14a34509b5de15b3ebc6db3cea4d05a"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1645042/mean-girls-day.webp?w=397&h=265&l=58&t=27&f=6fd6581394b880a9e3e903626a54661b"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645347/trump-wax-figure.webp?w=397&h=265&l=66&t=19&f=8507a8232ea9f0ef30f12a87172bff7a"
                   alt="side-news"></a>
             </div>
@@ -1039,7 +1057,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1645320/wwe-logo-latest.webp?w=95&h=95&f=6250ae7fe5f7251b1cff8b0baf8d49a6"
                   alt="side-news"></a>
             </div>
@@ -1050,7 +1068,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -1065,27 +1083,27 @@
 
 
     <div class="border-top">
-      <h3 class="sect-title red-text">Sports</h3>
+      <h3 class="f-size-20 red-text bld">Sports</h3>
       <div id="sports" class="row other-news">
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644657/jimmy-butler-lebron-james-nba-finals.webp?w=397&h=265&f=2f7f4ef41739cea224e16a1bc7dedf64"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <article class="col-md-4 ">
           <a href=""><img class="img-fluid w-100"
               src="https://d.newsweek.com/en/full/1644973/liam-hendriks-oakland-athletics.webp?w=397&h=265&f=f1263e1f80163a6cc06f25471c64c68f"
               alt="U.S news"></a>
-          <h2><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
+          <h2 class="f-size-20 pt-1"><a href="">Watch Adorable 5-Week-Old Panda Cub Crawl to Its Mother in National Zoo Vid</a></h2>
         </article>
 
         <div class="col-md-4">
 
           <div class="d-flex">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644590/georgia-bulldogs-college-football.webp?w=95&h=95&f=d0e107157acde120784a71e99165eb68"
                   alt="side-news"></a>
             </div>
@@ -1096,7 +1114,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644590/georgia-bulldogs-college-football.webp?w=95&h=95&f=d0e107157acde120784a71e99165eb68"
                   alt="side-news"></a>
             </div>
@@ -1107,7 +1125,7 @@
 
           <div class="d-flex border-top pt-3 pb-1">
             <div class="sect-img">
-              <a href=""><img class=""
+              <a href=""><img class="w-100 h-auto"
                   src="https://d.newsweek.com/en/full/1644514/jimmy-carter.webp?w=397&h=265&f=3bb764632249a7a5ced6638ab9d4260e"
                   alt="side-news"></a>
             </div>
@@ -1127,10 +1145,10 @@
 
       <div class="col-lg-8 d-flex flex-column">
         <h4 class="red-text">SUBSCRIBE</h4>
-        <div class="row bg-gray mr-1 p-4 flex-grow-1 subscribe-info">
+        <div class="row bg-gray mr-1 p-4 flex-grow-1 subscribe-info bg-red text-center text-md-left">
           <div class="col-md-4 ">
-            <div class="two-img behind-img">
-              <img class="img-fluid behind-img"
+            <div class="two-img position-relative">
+              <img class="img-fluid position-relative"
               src="https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&q=95&f=7dedf2b19f9910e285fdbdff096ed6a3"
               alt="subscribe">
                 <img class=" img-fluid front-img h-100" src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7" alt="sad woman">
@@ -1142,7 +1160,7 @@
           <div class="col-md-8 subscribe mt-4">
             <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
             <p>All Access + Weekly Delivery. A Membership That's Perfect for You!</p>
-            <button class="btn btn-danger" type="button">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+            <button class="btn btn-danger bg-red" type="button">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
           </div>
         </div>
       </div>
@@ -1158,7 +1176,7 @@
             <form >
               <div class="row pl-1 pr-1">
                 <input class="form-control col-6 col-lg-12 m-0 mb-lg-1 w-100 mb-1" type="text" placeholder="Email address">
-                <button class="btn btn-danger col-6 col-lg-12" type="button">FREE SIGN UP <i
+                <button class="btn btn-danger col-6 col-lg-12 bg-red" type="button">FREE SIGN UP <i
                     class="fas fa-chevron-right"></i></button>
               </div>
             </form>
@@ -1176,19 +1194,20 @@
 
   <footer class="mt-1 bg-white container-fluid">
 
-      <div class="row container">
+      <div class="row">
         <div class="col-md-6">
           <div class="row">
             <div class=" col-sm-6 col-md-6 mt-auto">
               <a href="#"><img class="img-fluid " src="images/newsweek-logo-png-transparent.png" alt="logo"></a>
             </div>
-            <div class="col-12 col-md-6 copyright mt-auto">
+            <div class="col-12 col-md-6 copyright f-size-12 mt-auto">
               <p class="m-0">© 2020 NEWSWEEK DIGITAL</p>
             </div> 
           </div>
 
 
         </div>
+        
         <div id="footer-icons" class="col-12 col-md-6 text-right">
           <ul>
             <li><a class="no-deco" href="#"><i class="fab fa-facebook-square"></i> </a></li>
@@ -1198,7 +1217,6 @@
           </ul>
         </div>
       </div>
-
       <div class="row f-14 border-top mt-0 ">
         <div>
 

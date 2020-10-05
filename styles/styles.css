@@ -6,7 +6,6 @@
 
 body {
   background-color: #f4f5f6;
-  padding: 0 5rem;
   margin: 0;
 }
 
@@ -42,14 +41,19 @@ ul li {
   padding: 0;
 }
 
-/* Global Usage */
-
-#login-icon {
-  display: none;
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 
-#hamburger {
-  display: none;
+/* Global Usage */
+
+.f-size-12 {
+  font-size: 12px;
+}
+
+.f-size-20 {
+  font-size: 20px;
 }
 
 .bld {
@@ -61,7 +65,7 @@ ul li {
   color: #807f84;
 }
 
-#bold {
+.c-black {
   color: black;
 }
 
@@ -92,10 +96,13 @@ ul li {
 /* HEADER */
 
 .logo-nav {
-  background: #f72210;
   padding: 0.7rem 0;
   color: white;
   position: relative;
+}
+
+.logo-nav img {
+  min-width: 150px;
 }
 
 .nav-login {
@@ -115,13 +122,11 @@ ul li {
   border-radius: 20px;
   padding: 0 0.7rem;
   margin: 0 0.5rem;
-  font-size: 12px;
   font-weight: 900;
 }
 
 .cat-nav {
   position: relative;
-  background-color: white;
 }
 
 .angle {
@@ -147,7 +152,6 @@ ul li {
 .trending {
   border-top: 1px solid #d5d5d5;
   border-bottom: 1px solid #d5d5d5;
-  background-color: white;
 }
 
 /* MAIN SECTION */
@@ -155,11 +159,6 @@ ul li {
 .section-title {
   color: grey;
   font-size: 16px;
-  font-weight: bold;
-}
-
-.featured-img {
-  position: relative;
 }
 
 .featured-img h3 {
@@ -174,13 +173,7 @@ ul li {
 
 .featured-title {
   font-size: 24px;
-  font-weight: bold;
   padding-top: 0.4rem;
-}
-
-.featured-title a {
-  text-decoration: none;
-  color: black;
 }
 
 .summary {
@@ -190,12 +183,6 @@ ul li {
 
 .grey-scale {
   color: grey;
-  font-weight: bold;
-}
-
-.grey-scale p {
-  font-size: 12px;
-  padding-top: 0.5rem;
 }
 
 .single-story {
@@ -215,11 +202,7 @@ ul li {
   border-bottom: 3px double gray;
 }
 
-.center {
-  text-align: center;
-}
-
-.text-center {
+.center-text {
   width: 25px;
   height: 25px;
   background-color: black;
@@ -282,26 +265,16 @@ ul li {
 
 .single-mag span {
   color: #f72210;
-  font-weight: bold;
 }
 
 .single-mag .bg-red {
-  display: inline-block;
   padding: 0.2rem 0.4rem;
   margin: 0.5rem 0;
   color: white;
-  font-weight: bold;
-}
-
-.sect-title {
-  font-size: 20px;
-  color: #f72210;
-  font-weight: bold;
 }
 
 .single-mag h3 {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .single-mag img {
@@ -310,7 +283,6 @@ ul li {
 }
 
 .t-details {
-  font-size: 20px;
   font-weight: 800;
 }
 
@@ -321,9 +293,7 @@ ul li {
 }
 
 .other-news h2 {
-  font-size: 20px;
   font-weight: 800;
-  padding-top: 0.5rem;
 }
 
 .other-news h3 {
@@ -350,7 +320,6 @@ ul li {
 
 .subscribe-info button {
   font-size: 11px;
-  background-color: #f72210;
 }
 
 .cat-nav form input {
@@ -371,15 +340,6 @@ ul li {
   width: 200px;
 }
 
-.sect-img img {
-  width: 100%;
-  height: auto;
-}
-
-.behind-img {
-  position: relative;
-}
-
 .front-img {
   position: absolute;
   top: 1rem;
@@ -388,11 +348,6 @@ ul li {
 
 #debate h3 {
   font-size: 15px;
-  font-weight: bold;
-}
-
-#debate h4 {
-  font-size: 12px;
 }
 
 #stories-head {
@@ -402,7 +357,6 @@ ul li {
 
 #m-stories h3 {
   font-size: 17px;
-  font-weight: bold;
 }
 
 #debate img {
@@ -415,20 +369,10 @@ ul li {
   border: 1px solid #e5e5e5;
 }
 
-#newsletter button {
-  font-size: 12px;
-  background-color: #f72210;
-}
-
 /* Footer */
-
-.bg_white {
-  background: white;
-}
 
 .copyright {
   padding-top: 1rem;
-  font-size: 12px;
 }
 
 .f-14 {
@@ -445,16 +389,7 @@ ul li {
   font-size: 24px;
 }
 
-/* footer .border-top {
-  margin-top: 0;
-} */
-
 @media screen and (max-width: 991px) {
-  .container-fluid {
-    padding: 0;
-    margin-left: 0;
-  }
-
   .cat-nav,
   .trending,
   .nav-date {
@@ -463,7 +398,6 @@ ul li {
 
   .logo-nav {
     position: fixed;
-    width: 100%;
   }
 
   .logo-nav::after {
@@ -490,14 +424,6 @@ ul li {
 @media screen and (max-width: 767px) {
   main {
     margin-top: 4.4rem;
-  }
-
-  body .container-fluid {
-    margin: 0;
-  }
-
-  .featured-img img {
-    width: 100%;
   }
 
   .logo-nav {
@@ -541,10 +467,6 @@ ul li {
     height: auto;
   }
 
-  .subscribe-info {
-    text-align: center;
-  }
-
   .front-img {
     top: 1rem;
     left: 40%;
@@ -552,7 +474,7 @@ ul li {
   }
 
   #newsletter {
-    width: 100%;
+    width: 50%;
   }
 
   #footer-icons {
