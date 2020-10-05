@@ -1,6 +1,6 @@
 * {
   margin: 0 0;
-  /* padding: 0 0; */
+  padding: 0 0;
   box-sizing: border-box;
 }
 
@@ -558,6 +558,5 @@ ul li {
   #footer-icons {
     text-align: left !important;
     left: 0;
-    
   }
 }
