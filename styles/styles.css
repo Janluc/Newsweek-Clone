@@ -176,6 +176,10 @@ ul li {
   padding-top: 0.4rem;
 }
 
+.top-story-small {
+  display: none;
+}
+
 .summary {
   font-size: 15px;
   padding-bottom: 1rem;
@@ -426,6 +430,15 @@ ul li {
     margin-top: 4.4rem;
   }
 
+  .top-story-small {
+    display: block;
+    padding: 0;
+  }
+
+  .top-story-big {
+    display: none;
+  }
+
   .logo-nav {
     position: fixed;
     top: 0;
@@ -465,6 +478,14 @@ ul li {
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .order-2 {
+    order: 3;
+  }
+
+  .order-3 {
+    order: 2;
   }
 
   .front-img {
